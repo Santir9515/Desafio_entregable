@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans:wght@200&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    padding-right: 6px;
+    padding-left: 7px;
+}
+
+body{
+    font-family: 'indie flower', cursive;
+    background-color: #EF6C00;
+}
+
+@media screen and (max-width:600px){
+
+    /* Header */
+
+
+    .header{
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /* Nav */
+
+    .headerLista li{ 
+        list-style-type: none;
+        display: inline;        
+    }
+
+
+    a{
+        color: #434445;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'indie flower', cursive;
+        font-size: 15px;
+        padding: 0rem 2rem;    
+    }
+
+    .boton{
+        outline: none;
+        border: none;
+        width: 120px;
+        font-family: 'indie flower', cursive;
+        font-weight: bold;
+        background-color: #409fff;
+        padding: 0.2rem;
+        margin-left: 11rem;
+        margin-top: 4%;
+        margin-bottom: 3rem;
+        color: white;
+        border-radius: 10px;
+        text-align: center;    
+    }
+
+    .bContacto{
+        color: white;
+        text-align: center;
+        padding: 0%;
+    }   
+
+    /* Main */
+
+    .tituloPrinc{
+        color: rgb(0, 0, 0);
+        font-family: 'indie flower', cursive;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .destaPadre{
+        display: grid;
+        height: 800px;
+        grid-template-columns: 160px 160px;
+        grid-template-rows: 340px 340px 340px 340px;
+        grid-template-areas: "a1 a2"
+                            "a3 a4";
+        align-content: space-between;
+        justify-content: space-evenly;
+        
+        
+    }
+
+
+    .carta{
+        background-color: #409fff;
+        width: 150px;
+        height: 150px;
+        border-radius: 1rem;
+        
+    }
+
+    .carta__titulo{ 
+        font-weight: bold;   
+        font-size: 17px;
+        margin-top: 0,8rem;
+    }
+
+
+    .carta__img{
+        width: 140px;
+        height: 140px;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+    
+    }
+
+    .carta__parrafo{
+        text-align: center;
+        color: #000000;
+        font-weight: bold;   
+        font-size: 13px;     
+    }
+     
+
+    .Valor{
+        font-size: 17px;
+        font-family: 'indie flower', cursive;
+        text-align: center;
+        font-weight: bold;
+        background-color: #409fff;
+        border-radius: 15px;
+    }
+
+    /* Footer */
+
+    .footer{
+        background-color:#409fff;
+        height: 120px;
+        font-size: 10px;
+    }
+
+    .powered{
+        color: rgb(10, 10, 10);
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .footerClass{
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    /* Pagina Alquiler- Venta */
+
+    .tituloPags{
+        text-align: center;
+    }
+
+    #grilla{
+        display: grid;
+        height: 1400px;
+        grid-template-columns: 160px 160px;
+        grid-template-rows: 300px 300px 300px 300px ;
+        grid-template-areas: "a1 a2"
+                             "a3 a4"
+                             "a5 a6"
+                             "a7 a8";
+                        
+        align-content:space-between;
+        justify-content: space-evenly;
+    
+    }
+    .divsG{
+        background-color: #409fff;
+        border-radius: 15px;
+        width: 150px;
+        height: 280px;    
+    }
+
+    .imgGrilla{
+        width: 100%;
+        height: 150px;       
+    }
+
+    .ubiGrilla{
+        font-weight: bold;
+        color: white;
+        text-align: center; 
+    }
+
+    .parGrilla{
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .valGrilla{
+        font-weight: bold;
+        font-size: 17px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        background-size: 30px;
+    }
+
+    /* Pagina Nosotros */
+
+    .divParrafo{
+        display: grid;       
+    }
+
+    .parrafos{
+        text-align: center;
+        font-size: 13px;
+        margin-top: 2rem;
+        color: #000000;
+        font-weight: bold;
+    }   
+
+
+    #grillaNosotros{
+        display: grid;
+        height: 300px;
+        margin-top: 1,5rem;
+        grid-template-columns: 50% 20%;
+        grid-template-rows: 200px;
+        grid-template-areas: "a1 a2";
+        justify-content: space-evenly;    
+    }
+
+    .imgParrafo{
+        width: 100px;
+        height: 85px;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+
+    /* Pagina Contacto */
+
+    #grillaContacto{
+        display: grid;
+        height: 500px;
+        grid-template-columns: 50%;
+        grid-template-rows: 400px;
+        grid-template-areas: "a1 a2";
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 2rem;
+        margin-right: 2rem;
+                      
+    }
+
+    .imgContacto{
+        display: none;
+    }
+
+    .formInfo{
+        background-color: #409fff;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 4px;
+        text-align: center;
+    }   
+    .headerLogo{
+        height: 100px;
+    }
+}
+
+@media screen and (min-width:600px) {
+
+
+    /* Header */
+
+    .header{
+        display: flex;
+        justify-content: space-between;
+        padding: 1.6rem 2.5rem ; 
+        align-items: center;   
+        border-bottom: solid 1px #d0d2d4;
+    }
+
+    /* Nav */
+
+    a{
+        color: #434445;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'indie flower', cursive;
+        font-size: 15px;
+        padding: 0rem 2rem;
+    
+    }
+    .headerLogo{
+        height: 100px;
+    }
+
+    .headerLista li{ 
+        list-style-type: none;
+        display: inline-block;
+    
+    }
+
+    .headerNav{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+    .boton{
+        outline: none;
+        border: none;
+        width: 120px;
+        font-family: 'indie flower', cursive;
+        font-weight: bold;
+        background-color: #409fff;
+        padding: 0.4rem;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .bContacto{
+        color: white;
+        text-align: end;
+        padding: 0%;
+    }
+
+    /* Main */
+
+    .tituloPrinc{
+        color: rgb(0, 0, 0);
+        font-family: 'indie flower', cursive;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .parrafoDescri {
+        font-weight: bold;
+
+    }
+
+    .destaPadre{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;          
+    }
+
+    .carta{
+        flex-direction: column;
+        background-color: #409fff;
+        width: 230px;
+        height: 320px;
+        border-radius: 1rem;
+        align-items: center;
+    }
+
+
+    .carta__titulo{
+        font-size: 25px;
+        text-align: start;
+        font-weight: bold;  
+        color:#ffffff;
+    }
+
+    .carta__parrafo{
+        text-align: center;
+        color: #000000;
+        font-weight: bold; 
+        font-size: 14px;       
+    }
+
+
+
+    .carta__img{
+        width: 200px;
+        height: 180px;    
+    }
+
+    div .carta{
+        display: flex;
+        justify-content: space-around;
+        color:#000000;
+        font-weight: bold;         
+    }
+
+    .Valor{
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        font-family: 'indie flower', cursive;
+        border-radius: 5px;
+    }
+
+
+    /* Footer */
+
+    .footer{
+        background-color:#409fff;
+        height: 120px;
+        margin-top: 6rem;
+        margin-bottom: 0%;
+    }
+
+    .powered{
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .footerClass{
+        display: flex;
+        justify-content: space-around;
+        font-weight: bold;
+    }
+
+
+    /* Pagina Alquiler- Venta */
+
+    .tituloPags{
+        margin-top: 2rem;
+        text-align: center;
+
+    }
+
+    #grilla{
+        display: grid;
+        height: 900px;
+        grid-template-columns: 20% 20% 20% 20% ;
+        grid-template-rows: 320px 320px;
+        grid-template-areas: "a1 a2 a3 a4"
+                             "a5 a6";
+                        
+        align-content: space-evenly;
+        justify-content: space-around;
+    
+    }
+
+    .divsG{
+        background-color: #409fff;
+        border-radius: 15px;
+        margin-top: 0%;
+    }
+
+    .imgGrilla{
+        width: 100%;
+        height: 200px;
+        margin-top: 0%;       
+    }
+
+    .ubiGrilla{
+        font-weight: bold;
+        color: white;
+        text-align: center; 
+    }
+
+    .parGrilla{
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .valGrilla{
+        font-weight: bold;
+        font-size: 17px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        background-size: 30px;
+    }
+
+    /* Pagina Nosotros */
+
+    .divParrafo{
+        display: grid;       
+    }
+
+    .parrafos{
+        text-align: center;
+        margin-top: 2rem;
+        color: #000000;
+        font-weight: bold;
+    }   
+
+
+    #grillaNosotros{
+        display: grid;
+        margin-top: 1,5rem;
+        grid-template-columns: 40% 30%;
+        grid-template-rows: 200px;
+        grid-template-areas: "a1 a2";
+        justify-content: space-evenly;
+    }
+
+    .imgParrafo{
+        width: 350px;
+        height: 100%;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+
+    /* Pagina Contacto */
+
+    #grillaContacto{
+        display: grid;
+        height: 400px;
+        grid-template-columns: 20% 40%;
+        grid-template-rows: 200px;
+        grid-template-areas: "a1 a2";
+        justify-content: space-evenly;
+        align-items:center;
+        margin-top: 10rem;            
+    }
+
+    
+    .imgContacto{
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;
+    }
+
+    .formInfo{
+        display: flex;
+        background-color: #409fff;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 4px;
+        text-align: center;
+    }   
+    .formP{
+    padding-left: 10rem;
+    }
+
+}
+
